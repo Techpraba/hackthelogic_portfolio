@@ -2,6 +2,73 @@
     margin: 0;
     padding: 0;
 }
+
+/* hero */
+
+.hero {
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center;
+  height: 80vh;
+  background-color: rgb(241,241,241);
+}
+
+.hero_head {
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  background-color: white;
+  padding: 20px,20px,10px,20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero_head img {
+  width: 30px;
+  height: 30px;
+}
+
+.hero_head a {
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero_head a:hover {
+  text-decoration: underline;
+}
+.hero_head img{
+    width: 30px;
+}
+
+#hero_body {
+  position: static;
+  margin-top: 150px;
+  overflow: hidden;
+  height: 100%;
+}
+#img1{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  margin-top: 159px;
+  margin-right: 50px;
+  top: 0;
+  z-index: 0;
+}
+
+#hero_people img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+
 /* footer */
 
 footer {
@@ -14,11 +81,11 @@ footer {
     display: flex;
     flex-direction: column; 
     justify-content: space-between; 
-    background-image: url(../icons/bc_footer_img.png),url(../icons/bc-logo_footer.png);
+    background-image: url(../images/bc_footer_img.png),url(../images/bc-logo_footer.png);
     background-position: right,left;
     background-repeat: no-repeat;
   }
-  span{
+  .footer-logo span{
     padding-top: 80px;
   }
   
