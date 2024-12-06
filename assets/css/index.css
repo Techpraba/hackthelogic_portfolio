@@ -363,6 +363,12 @@ footer {
   }
   .ch-left{
     width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
    
   }
   .ch-left h5{
@@ -394,18 +400,20 @@ footer {
     height: 100vh;
     background-color: rgb(49, 49, 49);
     position: relative;
-    padding-bottom: 20vh;
+    padding-top: 20vh;
   }
   .bus-card{
     width: 600px;
     height: 400px;
-    background-color: #000;
+    background-color: #e3ff46;
     position: absolute;
-    left: 200px;
+    left: 30%;
+    top: 0;
   }
   .bus-content{
     width: 100%;
     height: 80vh;
     background-color: red;
     padding-top: 200px;
+    background-color: #000;
   }
