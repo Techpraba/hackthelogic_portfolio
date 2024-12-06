@@ -437,3 +437,11 @@ footer {
     width: 200px;
     height: 250px;
   }
+  .bus-content h1{
+    text-align: center;
+    color: white;
+    text-shadow: #000000 4px 4px 2px ;
+  }
+  .bus-content h1+h1{
+    color: #00ff6a;
+  }
