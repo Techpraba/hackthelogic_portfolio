@@ -326,6 +326,32 @@ footer {
     
     }
   }
+  @media only screen and (min-width: 500px) and (max-width: 900px) {
+    .abt-img {
+      width: 220px;
+      height: 200px;
+    
+    }
+    
+  }
+  @media only screen and (min-width: 300px) and (max-width: 500px) {
+    .abt-img {
+      width: 120px;
+      height: 100px;
+    
+    }
+    .about{
+      padding: 0;
+      width: 100%;
+    }
+    .abt-btn{
+      margin-left: 0;
+      padding: 0;
+      font-size: 7px;
+      width: auto;
+    }
+  }
+
   /* --------------Challenge Section--------------- */
   .challenge{
     width: 100%;
