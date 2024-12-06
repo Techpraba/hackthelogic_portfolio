@@ -398,22 +398,42 @@ footer {
   .business{
     width: 100%;
     height: 100vh;
-    background-color: rgb(49, 49, 49);
+   background-color: #444;
     position: relative;
     padding-top: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .bus-card{
     width: 600px;
-    height: 400px;
-    background-color: #e3ff46;
+    height: 300px;
+    background-color: greenyellow;
     position: absolute;
     left: 30%;
-    top: 0;
+    top: 10px;
+    border-radius: 10px;
+    display: flex;
   }
   .bus-content{
     width: 100%;
     height: 80vh;
-    background-color: red;
     padding-top: 200px;
-    background-color: #000;
+    background-image: url(../images/chellange-bg.jpg);
+    object-fit: cover;
+    background-size: cover;
+  }
+  .bus-card-left{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+
+  }
+  .bus-btn{
+    width: 48%;
+    margin-left: 0;
+  }
+  .bus-pic{
+    width: 200px;
+    height: 250px;
   }
